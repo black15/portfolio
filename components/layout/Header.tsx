@@ -2,7 +2,11 @@
 import React from 'react'
 import Link from 'next/link'
 import SwitchTheme from '../ui/Switch'
-import {FaFacebookF, BsTwitter, FaInstagram, BsGithub, HiDocumentDownload} from 'react-icons/all'
+import {FaFacebookF} from 'react-icons/fa'
+import {BsTwitter, BsGithub} from 'react-icons/bs'
+import {FaInstagram} from 'react-icons/fa'
+import {HiDocumentDownload} from 'react-icons/hi'
+
 type Props = {}
 
 const Header = (props: Props) => {
