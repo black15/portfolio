@@ -10,7 +10,7 @@ type Props = {}
 const Services = (props: Props) => {
   return (
 		<section className='relative flex flex-col my-24'>
-			<h1 className="absolute left-[28%] text-9xl text-[#0000002c] dark:text-[#ffffff0e] font-bold animate__animated animate__fadeInUp -z-10">SERVICES</h1>
+			<h1 className="hidden lg:block absolute xl:left-[26%] lg:left-[12%] text-9xl text-[#0000002c] dark:text-[#ffffff0e] font-bold animate__animated animate__fadeInUp -z-10">SERVICES</h1>
 			<h2 className="text-3xl text-center font-bold z-10 uppercase animate__animated animate__fadeInUp pt-10">W<span className='border-b-4 border-[#009945]'>hat I Offer</span> ?</h2>
 			<div className="flex flex-col md:flex-row flex-wrap justify-between items-center mt-24 space-y-8 md:space-y-0">
 				<div className="flex flex-row items-center space-x-8">

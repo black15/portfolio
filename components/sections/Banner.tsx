@@ -35,7 +35,7 @@ const Banner = (props: Props) => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed distinctio ad saepe illum at quidem in nostrum inventore cupiditate. Accusamus reiciendis dolore temporibus cupiditate nostrum.
           </p>
         </div>
-        <div className='absolute -z-10 opacity-5 md:opacity-100 md:relative md:block px-6'>
+        <div className='absolute -z-10 opacity-20 dark:opacity-5 md:opacity-100 md:dark:opacity-100 md:relative md:block px-6'>
           <Image 
             className='animate__animated animate__pulse animate__infinite animate__slow'
             src={banner}

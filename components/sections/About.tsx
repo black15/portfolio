@@ -7,15 +7,15 @@ type Props = {}
 const About = (props: Props) => {
   return (
 	 <section className='relative flex flex-col my-24'>
-		<h1 className="hidden lg:block absolute lg:left-[25%] text-6xl lg:text-9xl text-[#0000002c] dark:text-[#ffffff0e] font-bold animate__animated animate__fadeInUp -z-10">ABOUT ME</h1>
+		<h1 className="hidden lg:block absolute xl:left-[25%] lg:left-[12%] text-9xl text-[#0000002c] dark:text-[#ffffff0e] font-bold animate__animated animate__fadeInUp -z-10">ABOUT ME</h1>
 		<h2 className="text-3xl text-center font-bold z-10 uppercase animate__animated animate__fadeInUp pt-10">W<span className='border-b-4 border-[#009945]'>ho Am I</span> ?</h2>
 		<div className="flex flex-col space-y-8 lg:space-y-0 lg:flex-row justify-between items-center mt-12 lg:mt-24 text-center lg:text-left">
 			<div className='felx flex-col items-center space-y-2'>
-				<h1 className="text-3xl font-bold">I'm <span className='text-[#009945]'>Oussama</span>, a Web Developer</h1>
-				<p className="max-w-3xl text-lg text-gray-700 dark:text-gray-300">
-					I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+				<h1 className="text-3xl font-bold">I'm <span className='text-[#00bb54]'>Oussama</span>, a Web Developer</h1>
+				<p className="max-w-3xl text-lg text-gray-700 dark:text-gray-300 text-left">
+					I am a highly motivated and enthusiastic web developer with a passion for creating user-friendly, visually appealing, and functional websites. With 5years of experience as a Full Stack Developer, I have developed a strong skillset that allows me to bring ideas to life on the web.
 					<p className='mt-2'>
-						Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.
+						I am constantly seeking new challenges and opportunities to enhance my skills and grow as a professional. Whether working independently or as part of a team, I am dedicated to delivering high-quality results that exceed client expectations.
 					</p>
 				</p>
 			</div>
