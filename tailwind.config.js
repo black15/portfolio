@@ -34,6 +34,12 @@ module.exports = {
           '50%': { transform: 'rotate(3deg)' },
         }
       },
+      fontFamily: {
+        'poppins': ['"Poppins"', 'sans-serif'],
+        'lobster': ['"Lobster"', 'cursive'],
+        'fjalla': ['"Fjalla One"', 'sans-serif'],
+
+      }
     },
   },
   plugins: [],

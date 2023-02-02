@@ -15,7 +15,7 @@ const Layout = ({children}: Props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-		<main className='mx-auto container px-16'>
+		<main className='mx-auto container px-4 lg:px-16'>
 			<Header />
 			<main>{children}</main>
 			{/* <Footer /> */}

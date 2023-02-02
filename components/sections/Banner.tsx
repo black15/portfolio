@@ -2,22 +2,19 @@
 import React from 'react'
 import Image from 'next/image'
 import 'animate.css'
-import { Lobster, Abril_Fatface } from '@next/font/google'
 import { TypeAnimation } from 'react-type-animation';
 import banner from '../../public/img/banner.svg'
 
 type Props = {}
 
-const lobster = Lobster({ weight: "400" })
-const fjlla = Abril_Fatface({ weight: "400" })
 
 const Banner = (props: Props) => {
   return (
-      <div className="flex items-center justify-between my-24"> 
+      <div className="flex items-center justify-between my-24 px-2 md:px-2"> 
         <div className="flex flex-col space-y-3 animate__animated animate__flipInX">
-          <h3 className="text-3xl font-medium">Hello,</h3>
-          <h1 className={`text-8xl ${lobster.className}`}>I'm <span className='text-[#00e064]'>Oussama </span></h1>
-          <TypeAnimation className={`${fjlla.className}`}
+          <h3 className="text-2xl font-medium">Hello,</h3>
+          <h1 className={`text-6xl md:text-8xl font-lobster`}>I'm <span className='text-[#00e064]'>Oussama </span></h1>
+          <TypeAnimation className={`font-fjalla`}
             // Same String at the start will only be typed once, initially
             sequence={[
             'a Full Stack Developer',
@@ -38,9 +35,9 @@ const Banner = (props: Props) => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed distinctio ad saepe illum at quidem in nostrum inventore cupiditate. Accusamus reiciendis dolore temporibus cupiditate nostrum.
           </p>
         </div>
-        <div>
+        <div className='absolute -z-10 opacity-5 md:opacity-100 md:relative md:block px-6'>
           <Image 
-            className='animate__animated animate__pulse'
+            className='animate__animated animate__pulse animate__infinite animate__slow'
             src={banner}
             alt="Banner Image"
             width={500}
