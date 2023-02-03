@@ -6,7 +6,7 @@ import {FaFacebookF, FaProjectDiagram} from 'react-icons/fa'
 import {BsTwitter, BsGithub} from 'react-icons/bs'
 import {FaInstagram} from 'react-icons/fa'
 import {HiDocumentDownload} from 'react-icons/hi'
-import {AiOutlineClose, AiFillHome, AiOutlineProject} from 'react-icons/ai'
+import {MdOutlineMiscellaneousServices} from 'react-icons/md'
 import {GiSkills} from 'react-icons/gi'
 import {SiAboutdotme} from 'react-icons/si'
 
@@ -18,7 +18,7 @@ const Header = (props: Props) => {
 	console.log(toggleNav);
 	
 	return (
-		<>
+		<div>
 			<header className={`relative hidden lg:flex flex-row items-center justify-between px-6 py-4 bg-transparent`}>
 				<div>
 					<h1 className={`text-4xl font-semibold flex items-center`}>RESUME <HiDocumentDownload className='transition hover:text-[#00e064] cursor-pointer' /></h1>
@@ -43,32 +43,8 @@ const Header = (props: Props) => {
 					<SwitchTheme />
 				</div>
 			</header>
-			<div className='fixed bg-slate-300 dark:bg-slate-800 left-[9%] md:left-[27%] bottom-5 block lg:hidden transition z-30 rounded-full '>
-				{/* <h1 className={`text-4xl font-semibold flex items-center pt-6`}>RESUME <HiDocumentDownload className='transition hover:text-[#00e064] cursor-pointer' /></h1>
-				{!toggleNav && 
-					<div className='relative bg-red-700'><HiBars3BottomLeft fontSize={26} className='absolute -top-8 right-2' onClick={() => setToggleNav(true)} />
-					</div>
-				}
-				{
-					toggleNav && 
-					<div className="fixed right-0 top-0 bg-[#000000ec] text-gray-50 w-2/3 h-screen p-6 z-30 transition">
-						<div className="flex justify-between items-center transition">
-							<SwitchTheme />
-							<AiOutlineClose fontSize={24} onClick={() => setToggleNav(false)} />
-						</div>
-						<ul className="flex flex-col space-y-6 font-medium uppercase mt-12 transition">
-							<li className='transition hover:text-[#00e064] py-3 border-b'><Link href={""}>Home</Link></li>
-							<li className='transition hover:text-[#00e064] py-3 border-b'><Link href={""}>About Me</Link></li>
-							<li className='transition hover:text-[#00e064] py-3 border-b'><Link href={""}>Skills</Link></li>
-							<li className='transition hover:text-[#00e064] py-3 border-b'><Link href={""}>Projects</Link></li>
-						</ul>
-					</div>
-				} */}
-				<div className="flex flex-row items-center space-x-6 px-6 py-2">
-					<Link href={"#home"} className="flex flex-col space-y-2 items-center bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
-						<AiFillHome fontSize={22} className='text-[#00e064]' />
-						<small className='text-[10px] font-poppins font-semibold'>HOME</small>
-					</Link>
+			<div className='fixed left-0 right-0 mx-auto w-[95%] sm:w-5/6 md:w-2/3 bottom-5 lg:hidden transition z-30 rounded-full bg-slate-300 dark:bg-slate-800'>
+				<div className="flex flex-row justify-evenly items-center px-12 py-2">
 					<Link href={"#about"} className="flex flex-col space-y-2 items-center bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
 						<SiAboutdotme fontSize={22} className='text-[#00e064]' />
 						<small className='text-[10px] font-poppins font-semibold'>ABOUT</small>
@@ -81,9 +57,14 @@ const Header = (props: Props) => {
 						<FaProjectDiagram fontSize={22} className='text-[#00e064]' />
 						<small className='text-[10px] font-poppins font-semibold'>PROJECT</small>
 					</Link>
+					<Link href={"#home"} className="flex flex-col space-y-2 items-center bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
+						<MdOutlineMiscellaneousServices fontSize={22} className='text-[#00e064]' />
+						<small className='text-[10px] font-poppins font-semibold'>SERVICES</small>
+					</Link>
+					
 				</div>
 			</div>
-		</>
+		</div>
   )
 }
 
