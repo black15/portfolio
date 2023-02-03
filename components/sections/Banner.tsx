@@ -10,7 +10,7 @@ type Props = {}
 
 const Banner = (props: Props) => {
   return (
-      <div className="flex items-center justify-between my-24 px-2 md:px-2"> 
+      <div id='home' className="flex items-center justify-between my-12 lg:my-24 px-2 md:px-2"> 
         <div className="flex flex-col space-y-3 animate__animated animate__flipInX">
           <h3 className="text-2xl font-medium">Hello,</h3>
           <h1 className={`text-6xl md:text-8xl font-lobster`}>I'm <span className='text-[#00e064]'>Oussama </span></h1>
