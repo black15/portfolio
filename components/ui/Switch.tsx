@@ -19,7 +19,7 @@ export default function SwitchTheme() {
 			checked={enabled}
 			onChange={() => renderThemeChanger()}
 			className={`${enabled ? 'bg-gray-700' : 'bg-gray-300'}
-				relative inline-flex h-6 w-12 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2  focus-visible:ring-white focus-visible:ring-opacity-75`}
+				relative inline-flex h-6 w-12 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2  focus-visible:ring-white focus-visible:ring-opacity-75 lg:rotate-0 rotate-90`}
 		>
 			<span className="sr-only">Use setting</span>
 			<span

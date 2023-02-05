@@ -25,10 +25,11 @@ const Header = (props: Props) => {
 				</div>
 				<div>
 					<ul className="flex items-center space-x-4 font-medium uppercase">
-						<li className=' transition hover:text-[#00e064]'><Link href={""}>Home</Link></li>
-						<li className=' transition hover:text-[#00e064]'><Link href={""}>About Me</Link></li>
-						<li className=' transition hover:text-[#00e064]'><Link href={""}>Skills</Link></li>
-						<li className=' transition hover:text-[#00e064]'><Link href={""}>Projects</Link></li>
+						<li className=' transition hover:text-[#00e064]'><Link href={"#home"}>Home</Link></li>
+						<li className=' transition hover:text-[#00e064]'><Link href={"#about"}>About Me</Link></li>
+						<li className=' transition hover:text-[#00e064]'><Link href={"#services"}>Services</Link></li>
+						<li className=' transition hover:text-[#00e064]'><Link href={"#projects"}>Projects</Link></li>
+						<li className=' transition hover:text-[#00e064]'><Link href={"#skills"}>Skills</Link></li>
 					</ul>
 				</div>
 				
@@ -45,23 +46,24 @@ const Header = (props: Props) => {
 			</header>
 			<div className='fixed left-0 right-0 mx-auto w-[95%] sm:w-5/6 md:w-2/3 bottom-5 lg:hidden transition z-30 rounded-full bg-slate-300 dark:bg-slate-800'>
 				<div className="flex flex-row justify-evenly items-center px-12 py-2">
-					<Link href={"#about"} className="flex flex-col space-y-2 items-center bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
+					<Link href={"#about"} className="flex flex-col space-y-2 items-center bg-slate-200 dark:bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
 						<SiAboutdotme fontSize={22} className='text-[#00e064]' />
 						<small className='text-[10px] font-poppins font-semibold'>ABOUT</small>
 					</Link>
-					<Link href={"#skills"} className="flex flex-col space-y-2 items-center bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
-						<GiSkills fontSize={22} className='text-[#00e064]' />
-						<small className='text-[10px] font-poppins font-semibold'>SKILLS</small>
-					</Link>
-					<Link href={"#project"} className="flex flex-col space-y-2 items-center bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
-						<FaProjectDiagram fontSize={22} className='text-[#00e064]' />
-						<small className='text-[10px] font-poppins font-semibold'>PROJECT</small>
-					</Link>
-					<Link href={"#home"} className="flex flex-col space-y-2 items-center bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
+					
+					<Link href={"#services"} className="flex flex-col space-y-2 items-center bg-slate-200 dark:bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
 						<MdOutlineMiscellaneousServices fontSize={22} className='text-[#00e064]' />
 						<small className='text-[10px] font-poppins font-semibold'>SERVICES</small>
 					</Link>
-					
+					<Link href={"#projects"} className="flex flex-col space-y-2 items-center bg-slate-200 dark:bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
+						<FaProjectDiagram fontSize={22} className='text-[#00e064]' />
+						<small className='text-[10px] font-poppins font-semibold'>PROJECT</small>
+					</Link>
+					<Link href={"#skills"} className="flex flex-col space-y-2 items-center bg-slate-200 dark:bg-slate-900 px-4 py-2 rounded-full h-16 w-16">
+						<GiSkills fontSize={22} className='text-[#00e064]' />
+						<small className='text-[10px] font-poppins font-semibold'>SKILLS</small>
+					</Link>
+					<SwitchTheme />
 				</div>
 			</div>
 		</div>

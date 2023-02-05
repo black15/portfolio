@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React, { ReactNode } from 'react'
 import Header from './Header'
+import Footer from './Footer'
 
 type Props = {
 	children: ReactNode
@@ -18,7 +19,7 @@ const Layout = ({children}: Props) => {
 		<main className='mx-auto container px-4 lg:px-16'>
 			<Header />
 			<main>{children}</main>
-			{/* <Footer /> */}
+			<Footer />
 		</main>
 	 </>
   )
