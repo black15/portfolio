@@ -36,10 +36,10 @@ const Header = (props: Props) => {
 				<div className='flex items-center space-x-6'>
 					{/* <button className='px-6 py-2 border-2 border-gray-900 dark:border-gray-200 transition hover:bg-[#0ba550] hover:text-white hover:animate-wiggle '>Let's GO</button> */}
 					<div className='flex flex-row items-center space-x-4'>
-						<FaFacebookF fontSize={22}/>
-						<BsTwitter fontSize={22} />
-						<BsGithub fontSize={22} />
-						<FaInstagram fontSize={25} />
+						<Link href={'https://facebook.com/unknownkid.18'} target='_blank'><FaFacebookF fontSize={22}/></Link>
+						<Link href={'https://twitter.com/oussama1337'} target='_blank'><BsTwitter fontSize={22} /></Link>
+						<Link href={'https://github.com/black15'} target='_blank'><BsGithub fontSize={22} /></Link>
+						<Link href={'https://instagram.com/o.u.s.s._.a.m.a'} target='_blank'><FaInstagram fontSize={25} /></Link>
 					</div>
 					<SwitchTheme />
 				</div>
