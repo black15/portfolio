@@ -6,6 +6,7 @@ import nProgress from "nprogress";
 import Layout from "../components/layout/Layout";
 import "../styles/globals.css";
 import "../styles/style.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
