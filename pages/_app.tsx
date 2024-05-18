@@ -7,6 +7,7 @@ import Layout from "../components/layout/Layout";
 import "../styles/globals.css";
 import "../styles/style.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
