@@ -29,7 +29,7 @@ const Portfolio = (props: Props) => {
               className="w-[500px] h-auto bg-cyan-500 shadow-xl shadow-[#009945]/70 transition-all duration-300 ease-in-out transform perspective-250 hover:scale-105"
             />
           </Link>
-          <div className="max-w-xl text-gray-50 text-3xl font-poppins font-medium">
+          <div className="max-w-xl dark:text-gray-50 text-gray-800 text-3xl font-poppins font-medium">
             Ecommerce website supports dark/light mode built with Next.js 13,
             Tailwind CSS and GraphQL CMS
           </div>
@@ -46,7 +46,7 @@ const Portfolio = (props: Props) => {
               className="w-[500px] h-auto bg-cyan-500 shadow-xl shadow-[#009945]/70 transition-all duration-300 ease-in-out transform perspective-250 hover:rotate-y-25"
             />
           </Link>
-          <div className="max-w-xl text-gray-50 text-3xl font-poppins font-medium">
+          <div className="max-w-xl dark:text-gray-50 text-gray-800 text-3xl font-poppins font-medium">
             Luxury Marketplace build with HTML/CSS, Javascript and PHP for a
             client
           </div>
@@ -60,7 +60,7 @@ const Portfolio = (props: Props) => {
               className="w-[500px] h-auto bg-cyan-500 shadow-xl shadow-[#009945]/70 transition-all duration-300 ease-in-out transform perspective-250 hover:scale-105"
             />
           </Link>
-          <div className="max-w-xl text-gray-50 text-3xl font-poppins font-medium">
+          <div className="max-w-xl dark:text-gray-50 text-gray-800 text-3xl font-poppins font-medium">
             My Portfolio Supports Light/Dark mode built with Next.js 13 and
             Tailwind CSS
           </div>
@@ -74,7 +74,7 @@ const Portfolio = (props: Props) => {
               className="w-[500px] h-auto bg-cyan-500 shadow-xl shadow-[#009945]/70 transition-all duration-300 ease-in-out transform perspective-250 hover:rotate-y-25"
             />
           </Link>
-          <div className="max-w-xl text-gray-50 text-3xl font-poppins font-medium">
+          <div className="max-w-xl dark:text-gray-50 text-gray-800 text-3xl font-poppins font-medium">
             an Ecommerce website for selling furniture built with Django and
             Tailwind CSS
           </div>
